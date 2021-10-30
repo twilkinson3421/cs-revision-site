@@ -1,0 +1,17 @@
+.Footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.FooterTop {
+  background-color: #262337;
+  color: white;
+  padding: clamp(2vw, 20px, 20px);
+}
+
+.FooterBottom {
+  background-color: #c2c2c2;
+  padding: clamp(1vw, 10px, 10px) clamp(2vw, 20px, 20px);
+  display: flex;
+  justify-content: center;
+}

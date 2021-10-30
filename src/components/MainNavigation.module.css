@@ -1,0 +1,38 @@
+.MainNavigationTop {
+  background-color: #262337;
+  display: flex;
+  justify-content: center;
+  padding: clamp(2vw, 20pc, 20px);
+}
+
+.MainNavigationTop h1 {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.MainNavigation {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+.MainNavigationBottom {
+  background-color: #c2c2c2;
+  display: flex;
+  justify-content: center;
+  padding: clamp(1vw, 10px, 10px);
+}
+
+.MainNavigationBottomPages {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: clamp(2.5vw, 25px, 25px);
+}
+
+.MainNavigationBottomPages * {
+  text-decoration: none;
+  color: #262337;
+}
